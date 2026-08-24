@@ -1,0 +1,17 @@
+Passagem de parametro
+
+-> supondo que temos uma função f que recebe um parametro;
+    F(x) -> x é parametro real
+   existe -> parametro formal(declarados na escrita do código)
+
+-> passagem por cópia
+        - A função F recebe apenas uma cópia do valor informado
+        - Alterações feitas por F não afetam x;
+
+-> passagem por referencia
+        - A função F recebe referências aos parâmetros reais, mas isso não 
+        gera diferença na sintaxe de uso;
+        - Modificações feitas por F acontecem na verdade diretamente em x;
+
+Obs: Em C existe apenas passagem por cópia.
+Em Java existem os dois tipos de passagem.

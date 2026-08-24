@@ -1,0 +1,31 @@
+-> Tipos primitivos
+  * tipos elementares
+
+-> Tipos Estruturados
+    *informações que complementam outras informações
+
+    ->Escopo Global {}
+        - região do código que fica fora de qualquer função
+
+    ->Declarando um tipo estruturado
+
+|-------------------------------------------------------------------------------------|
+|               cliente |  -> (nome segue a mesma regra da criação de variaveis)      |
+|                       v                                                             |
+|    struct (nome do tipo){                                                           |
+|        char nome[50];              |                                                |
+|        char end[100];              | -> lista de variaveis do tipo estruturado      |
+|        char telefone[9];           |                                                |
+|    };                                                                               |
+|                                                                                     |
+|    utilização:                                                                      |
+|        struct cliente c;  -> declaração de variavel do tipo cliente                 |
+|        c.nome; <-acessa o vetor de char do tipo estruturado                         |
+|                                                                                     |
+|                                                                                     |
+|                                                                                     |
+|                                                                                     |
+|                                                                                     |
+|                                                                                     |
+|                                                                                     |
+|                                                                                     |
